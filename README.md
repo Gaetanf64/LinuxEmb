@@ -60,13 +60,11 @@ ssh -i buildroot.pem admin@idBuildroot
             ifup eth0
             ifconfig (pour vérifier que tout est bon)
     - Depuis Windows configurer Ethernet avec l'adresse 10.0.0.2 et le mask : 255.0.0.0
-        ````
-
-
-
-
-## TO DO : TESTS / SLIDES / SCHEMA / SPECS
-sudo raspi-config -> clavier AZERTY
+- Copier le programme Python sur la carte Raspberry
+- Executer avec
+````
+python3 detection.py
+````
 
 
 
